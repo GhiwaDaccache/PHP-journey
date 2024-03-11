@@ -50,7 +50,7 @@ function transformStringToOperation($input_str) {
         }
 
     }
-    echo $result;
+    return $result;
     
 }
 transformStringToOperation($operation);
